@@ -18,6 +18,8 @@ jobs:
         npm install
         npm run build
     - uses: nelonoel/branch-name@v1
+      env:
+        ACTIONS_ALLOW_UNSECURE_COMMANDS: true
     - uses: ncipollo/release-action@v1
       id: release
       with:
