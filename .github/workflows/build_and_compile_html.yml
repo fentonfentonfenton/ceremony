@@ -30,4 +30,5 @@ jobs:
         artifacts: "build.zip"
         name: "${{ steps.branch-names.outputs.current_branch }}"
         tag: "${{ steps.branch-names.outputs.current_branch }}"
+        allowUpdates: true
 
