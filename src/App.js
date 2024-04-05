@@ -16,7 +16,7 @@ function Copyright() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm" Id="App">
+    <Container maxWidth="sm" id="App">
       <Box sx={{ my: 0 }}>
         <Typography variant="h2" component="h1" sx={{ mt: 10 }}>
           AUGUST 17TH {new Date().getFullYear()}
