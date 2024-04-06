@@ -55,6 +55,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_url: https://aws-bucket.s3.ap-northeast-2.amazonaws.com/${{steps.S3.outputs.object_key}}/index.html
           state: 'success'
-          deployment_id: ${{ steps.id.outputs.deployment_id }}
+          deployment_id: ${{ steps.deployment.outputs.deployment_id }}
 
         
