@@ -44,7 +44,9 @@ jobs:
           aws-region: eu-west-2
 
       - name: Deploy to S3
-        run: aws s3 sync --delete ./build s3://${{ secrets.AWS_BUCKET }}
+        run: |
+          cd build
+          aws s3 sync --delete . s3://${{ secrets.AWS_BUCKET }}
 
       - name: Update deployment status (success)
         if: success()
