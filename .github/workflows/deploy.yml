@@ -45,7 +45,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          cd build &&
+          cd build && cd build &&
           aws s3 sync --delete . s3://${{ secrets.AWS_BUCKET }}
 
       - name: Update deployment status (success)
