@@ -17,7 +17,7 @@ jobs:
         node-version-file: .nvmrc
     - run: |
         npm install
-        npm run build
+        UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID } npm run build
         zip -r build.zip build
     - name: Get branch name
       id: branch-names
@@ -31,4 +31,5 @@ jobs:
         name: "${{ steps.branch-names.outputs.current_branch }}"
         tag: "${{ steps.branch-names.outputs.current_branch }}"
         allowUpdates: true
+        generateReleaseNotes: true
 

@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(rootElement);
 
 import { Universal } from '@shopify/react-google-analytics';
 
-const UNIVERSAL_GA_ACCOUNT_ID = 'UA-3618850-2';
+const UNIVERSAL_GA_ACCOUNT_ID = process.env.REACT_APP_UNIVERSAL_GA_ACCOUNT_ID;
 
 root.render(
 

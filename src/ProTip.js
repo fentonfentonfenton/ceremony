@@ -21,10 +21,11 @@ export default function ProTip() {
         <Typography sx={{ mt: 6, mb: 3, color: 'text.secondary' }}>
 
             {angles.map(angle => (
-                <LightBulbIcon style={{
-                    color: `rgb(${angle / 2}, ${random()}, ${angle})`,
-                    transform: `rotate(${angle}deg)`
-                }}
+                <LightBulbIcon key={angle}
+                    style={{
+                        color: `rgb(${angle / 2}, ${random()}, ${angle})`,
+                        transform: `rotate(${angle}deg)`
+                    }}
                     sx={{ mr: 2, verticalAlign: 'middle' }} />
             ))}
         </Typography>
