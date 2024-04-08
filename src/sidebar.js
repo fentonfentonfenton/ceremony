@@ -5,18 +5,18 @@ export default props => {
     return (
         <Menu {...props}>
             <a className="menu-item" href="/">
-                Home
+                VENUE
             </a>
 
             <a className="menu-item" href="/about">
-                About
+                ORDER OF SERVICE
             </a>
 
             <a className="menu-item" href="/services">
-                Services
+                FAQ
             </a>
 
-            <a className="menu-item" href="/contact">
+            <a className="menu-item" href="">
                 RSVP
             </a>
         </Menu>
