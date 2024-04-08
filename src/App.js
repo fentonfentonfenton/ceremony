@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import Names from './Names';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
@@ -22,7 +23,7 @@ export default function App() {
           AUGUST 17TH {new Date().getFullYear()}
         </Typography>
         <Typography variant="h3" component="h1" sx={{ my: 2 }}>
-          Moogz & Jack
+          <Names />
         </Typography>
         <Typography variant="h1" component="h1" sx={{ my: 3 }}>
           ©EREMONY
