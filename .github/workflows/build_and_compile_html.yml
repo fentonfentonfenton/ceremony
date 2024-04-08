@@ -17,7 +17,7 @@ jobs:
         node-version-file: .nvmrc
     - run: |
         npm install
-        UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID } npm run build
+        UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID }} npm run build
         zip -r build.zip build
     - name: Get branch name
       id: branch-names
