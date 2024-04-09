@@ -1,11 +1,14 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Switch, { SwitchProps } from '@mui/material/Switch';
+import Typography from '@mui/material/Typography';
+import { useEffect, useState } from 'react';
+
 
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
-    width: 62,
-    height: 34,
-    padding: 7,
+    width: 45,
+    height: 24,
+    padding: 5,
     '& .MuiSwitch-switchBase': {
         margin: 1,
         padding: 0,
@@ -26,8 +29,8 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
     },
     '& .MuiSwitch-thumb': {
         backgroundColor: theme.palette.mode === 'dark' ? '#003892' : '#001e3c',
-        width: 32,
-        height: 32,
+        width: 20,
+        height: 20,
         '&::before': {
             content: "''",
             position: 'absolute',
@@ -50,8 +53,24 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 
-export default function RaveSwitch() {
+export default function RaveSwitch({ setRave }) {
+    const [raved, setRaved] = useState(false);
+
+    useEffect(() => {
+        setRave(raved)
+        // eslint-disable-next-line
+    }, [raved]); // Only re-run the effect if someone flicks the switch
+
     return (
-        <MaterialUISwitch sx={{ m: 1 }} />
+        <>
+            <Typography variant="caption" color="text.secondary" sx={{ mr: "15px" }}>
+                RaveMode
+            </Typography >
+            <br />
+            <MaterialUISwitch sx={{ m: 1 }}
+                onChange={() => setRaved(raved => !raved)}
+            />
+
+        </>
     );
 }

@@ -19,6 +19,10 @@ export default props => {
             <a className="menu-item" href="">
                 RSVP
             </a>
+
+            <a className="menu-item" href="">
+                <>{props.rave ? "RAVER!" + ' ✔' : ''}</>
+            </a>
         </Menu>
     );
 };
