@@ -6,7 +6,7 @@ import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
 import { Home, Event } from '@mui/icons-material';
-
+import Switch from './switch'
 
 function Copyright() {
   return (
@@ -25,6 +25,8 @@ function Copyright() {
 export default function App() {
   return (
     <Container maxWidth="sm" id="App">
+      <Switch />{'Rave Mode'}
+
       <Box sx={{ my: 0 }}>
         <Typography variant="h3" sx={{ mt: 10 }}>
           AUGUST 17TH {new Date().getFullYear()}
@@ -32,13 +34,13 @@ export default function App() {
         <Typography variant="h4" sx={{ my: 2 }}>
           <Names />
         </Typography>
-        <Typography variant="h3" sx={{ my: 3 }}>
-          ©EREMONY
+        <Typography variant="h2" sx={{ my: 3 }}>
+          ©EREMONY<br />...
         </Typography>
-        <Typography variant="h5" sx={{ my: 2, mb: 20 }}>
+        <Typography variant="h5" sx={{ my: 2, mb: "10%" }}>
           This is the one thing we didn't want to happen
         </Typography>
-        <Box sx={{ mb: 30 }}>
+        <Box sx={{ mb: "70%" }}>
           <ProTip />
         </Box>
       </Box>
