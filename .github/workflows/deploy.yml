@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Branch to deploy'
+        description: "Branch to deploy"
         required: true
-        default: 'main'
+        default: "main"
 jobs:
   deploy:
     name: Deploy ©EREMONY
@@ -23,14 +23,14 @@ jobs:
         name: Create GitHub deployment
         id: deployment
         with:
-          token: '${{ github.token }}'
+          token: "${{ github.token }}"
           environment: test-AF
 
       - name: Get release
         uses: dsaltares/fetch-gh-release-asset@master
         with:
           version: ${{ inputs.environment }}
-          file: 'build.zip'
+          file: "build.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Unzip release
@@ -46,6 +46,7 @@ jobs:
       - name: Deploy to S3
         run: |
           cd build && cd build &&
+          ls &&
           aws s3 sync --delete . s3://${{ secrets.AWS_BUCKET }}
 
       - name: Update deployment status (success)
@@ -54,7 +55,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_url: https://aws-bucket.s3.ap-northeast-2.amazonaws.com/${{steps.S3.outputs.object_key}}/index.html
-          state: 'success'
+          state: "success"
           deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-
-        
