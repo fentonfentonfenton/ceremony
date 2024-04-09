@@ -32,3 +32,5 @@ jobs:
           tag: "${{ steps.branch-names.outputs.current_branch }}"
           allowUpdates: true
           generateReleaseNotes: true
+          removeArtifacts: true
+          replacesArtifacts: true
