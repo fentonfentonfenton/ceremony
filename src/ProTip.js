@@ -33,7 +33,7 @@ export default function ProTip(props) {
             const interval = setInterval(() => {
                 setVisible(!visible);
                 console.log(visible, props.rave)
-            }, 3000);
+            }, 4000);
 
             //Clearing the interval
             return () => clearInterval(interval);
