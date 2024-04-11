@@ -49,7 +49,7 @@ export default function ProTip(props) {
                     <LightBulbIcon key={angle}
                         style={{
                             color: `rgb(${angle / 2}, ${random()}, ${angle})`,
-                            transform: `rotate(${angle}deg)`
+                            transform: `rotate(${angle + (getLightness() * 100)}deg)`
                         }}
                         sx={{ mr: 2, verticalAlign: 'middle' }} />
                 ))}
