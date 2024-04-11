@@ -18,11 +18,12 @@ jobs:
           npm install --legacy-peer-deps
           UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID }} npm run build
           zip -r build.zip build
+
       - name: Get branch name
         id: branch-names
         uses: tj-actions/branch-names@v8
 
-      - name: Delete release
+      - name: Delete old release
         uses: cb80/delrel@latest
         with:
           tag: "${{ steps.branch-names.outputs.current_branch }}"

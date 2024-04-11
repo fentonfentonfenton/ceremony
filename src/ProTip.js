@@ -15,6 +15,12 @@ function LightBulbIcon(props) {
     );
 }
 
+
+function getLightness() {
+    return (((Math.random() * 90) + 10) / 100.0).toFixed(1)
+}
+
+
 export default function ProTip(props) {
     const angles = ["0", "30", "60", "90", "120", "150", "180", "210", "240", "270", "300", "330", "360"];
     const random = () => Math.floor(Math.random() * 255);
@@ -27,7 +33,7 @@ export default function ProTip(props) {
             const interval = setInterval(() => {
                 setVisible(!visible);
                 console.log(visible, props.rave)
-            }, 1000);
+            }, 3000);
 
             //Clearing the interval
             return () => clearInterval(interval);
@@ -49,10 +55,10 @@ export default function ProTip(props) {
                 ))}
             </Typography>
 
-            <Animated key={visible} animationIn="jello" animationOut="jello">
+            <Animated key={visible} animationInDuration={3000} animationIn="jello" animationOut="jello">
 
                 <div className="text-art">
-                    <RainbowText lightness={0.2} saturation={1}>
+                    <RainbowText lightness={getLightness()} saturation={1}>
 
                         {props.rave ? `
 )))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
