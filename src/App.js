@@ -62,7 +62,7 @@ export default function App() {
             This is the one thing we didn't want to happen
           </Typography>
           <Box sx={{ mb: "70%" }}>
-            <ProTip />
+            <ProTip rave={rave} />
             {RaveMode(rave)}
           </Box>
         </Box>
