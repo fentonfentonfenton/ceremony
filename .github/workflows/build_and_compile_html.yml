@@ -7,16 +7,15 @@ on:
 jobs:
   build_and_release:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         name: NPM Install and Build
         id: build
         with:
           node-version-file: .nvmrc
       - run: |
-          npm install
+          npm install --legacy-peer-deps
           UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID }} npm run build
           zip -r build.zip build
       - name: Get branch name
@@ -34,3 +33,4 @@ jobs:
           generateReleaseNotes: true
           removeArtifacts: true
           replacesArtifacts: true
+          makeLatest: ${{ github.ref == 'refs/heads/main' && true || false }}
