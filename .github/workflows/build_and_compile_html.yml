@@ -29,8 +29,7 @@ jobs:
           artifacts: "build.zip"
           name: "${{ steps.branch-names.outputs.current_branch }}"
           tag: "${{ steps.branch-names.outputs.current_branch }}"
-          allowUpdates: true
+          allowUpdates: ${{ github.ref == 'refs/heads/main' && false || true }}
           generateReleaseNotes: true
           removeArtifacts: true
-          replacesArtifacts: true
           makeLatest: ${{ github.ref == 'refs/heads/main' && true || false }}
