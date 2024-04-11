@@ -75,7 +75,7 @@
 .text-art {
     /* background-color: hsla(0, 0%, 50%, 15); */
     font-family: monospace;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     /* overflow: scroll; */
     white-space: pre-line;
     word-break: unset;
@@ -85,4 +85,19 @@
     -moz-hyphens: unset;
     -ms-hyphens: unset;
     hyphens: unset;
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 100px) {
+    .text-art {
+        font-size: 0.5rem;
+    }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 601px) {
+    .text-art {
+        font-size: 0.8rem;
+    }
 }
