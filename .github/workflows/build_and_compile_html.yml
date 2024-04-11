@@ -27,7 +27,7 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ github.token }}"
         with:
-          release_name: "${{ steps.branch-names.outputs.current_branch }}"
+          release_id: "${{ steps.branch-names.outputs.current_branch }}"
 
       - uses: ncipollo/release-action@v1
         name: Release Zip
