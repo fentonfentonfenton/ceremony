@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import App from './App';
 import theme from './theme';
 import "./styles.css";
+import { BrowserRouter } from 'react-router-dom';
 
 
 
@@ -31,8 +32,8 @@ root.render(
         // https://developers.google.com/analytics/devguides/collection/analyticsjs/debugging
         />
 
-
-        <App />
-
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </ThemeProvider >,
 );

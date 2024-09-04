@@ -19,8 +19,11 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-    height: 14px;
-    width: 14px;
+    height: 24px !important;
+    width: 24px !important;
+    position: fixed !important;
+    top: -80px !important;
+    right: 190px !important;
 }
 
 /* Color/shape of close button cross */
@@ -34,16 +37,27 @@
   */
 .bm-menu-wrap {
     position: fixed;
-    height: 70%;
+    top: 0px;
+    height: 100%;
     width: 200px;
 }
 
 /* General sidebar styles */
 .bm-menu {
+    position: fixed;
     background: #373a47;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     width: 200px;
+    height: 100%;
+    overflow: auto;
+    background: lime;
+    /* Just to visualize the extent */
+    bottom: 100px;
+    top: -100px;
+    flex: 1 1 auto !important;
+
+
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -100,4 +114,23 @@
     .text-art {
         font-size: 0.8rem;
     }
+}
+
+.App {
+    height: 100%;
+}
+
+.body {
+    height: 100%;
+
+}
+
+.html {
+    height: 100%;
+
+}
+
+.root {
+    height: 100%;
+
 }
