@@ -1,28 +1,19 @@
 import React from "react";
 import { scaleDown as Menu } from "react-burger-menu";
+import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
 
-export default props => {
+
+export default function SideBar({ ...props }) {
+    const [raved, setRaved] = useState(false);
+
     return (
         <Menu {...props}>
-            <a className="menu-item" href="">
-                VENUE
-            </a>
+            <Link to="/venue" className="menu-item">VENUE</Link>
 
-            <a className="menu-item" href="">
-                ORDER OF SERVICE
-            </a>
-
-            <a className="menu-item" href="">
-                FAQ
-            </a>
-
-            <a className="menu-item" href="">
-                RSVP
-            </a>
-
-            <a className="menu-item" href="">
-                <>{props.rave ? "RAVER!" + ' ✔' : ''}</>
-            </a>
+            {/* <a className="menu-item" href="" onClick={() => setRaved(raved => !raved)}>
+                <>{'RAVE MODE'} {props.rave ? ' ✔' : ''}</>
+            </a> */}
         </Menu>
     );
 };
