@@ -8,6 +8,7 @@
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "5.15.15",
     "@shopify/react-google-analytics": "^5.0.15",
+    "ajv": "^8.17.1",
     "react": "18.2.0",
     "react-animated-css": "^1.2.1",
     "react-animated-text": "^0.1.4",
