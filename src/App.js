@@ -26,6 +26,11 @@ function Copyright() {
 
 export default function App() {
 
+
+  window.dataLayer.push({
+    event: 'pageview'
+  });
+
   const [rave, setRave] = useState(false);
 
   return (
