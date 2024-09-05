@@ -10,6 +10,9 @@ export default function SideBar({ ...props }) {
     return (
         <Menu {...props}>
             <Link to="/venue" className="menu-item">VENUE</Link>
+            <Link to="/faq" className="menu-item">FAQ {props.rave ? ' WTF' : ''}</Link>
+            <Link to="/lineup" className="menu-item">LINEUP</Link>
+
 
             {/* <a className="menu-item" href="" onClick={() => setRaved(raved => !raved)}>
                 <>{'RAVE MODE'} {props.rave ? ' ✔' : ''}</>
