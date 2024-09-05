@@ -27,3 +27,9 @@
 ### Can I play a set? Do art? Do a speech?
 
 * RSVP, when we know more about who's coming we will reveal plans.
+
+---
+
+### When will you tell us what time things are?
+
+* As soon as a few people RSVP!

@@ -67,6 +67,6 @@ Properly policed...
 
 ---
 
-#### I can tjing of several things that are things I didn't want to happen that are more important than this shite
+#### I can think of several things that are things I didn't want to happen that are more important than this shite
 
 > Who's counting?

@@ -28,7 +28,7 @@ img[alt="St Ethelburga's Centre for Reconciliation and Peace"] {
     width: 24px !important;
     position: fixed !important;
     top: -80px !important;
-    right: 190px !important;
+    left: 170px !important;
 }
 
 /* Color/shape of close button cross */
@@ -103,6 +103,7 @@ img[alt="St Ethelburga's Centre for Reconciliation and Peace"] {
     -moz-hyphens: unset;
     -ms-hyphens: unset;
     hyphens: unset;
+    margin-bottom: 0;
 }
 
 
@@ -121,20 +122,21 @@ img[alt="St Ethelburga's Centre for Reconciliation and Peace"] {
 }
 
 .App {
-    height: 100%;
+    height: 100vh;
+    margin-bottom: 0%
 }
 
 .body {
-    height: 100%;
+    height: 100vh;
 
 }
 
 .html {
-    height: 100%;
+    height: 100vh;
 
 }
 
 .root {
-    height: 100%;
-
+    height: 100vh;
+    margin-bottom: 0%
 }
