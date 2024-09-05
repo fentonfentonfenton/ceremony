@@ -14,9 +14,11 @@
     "react-animated-text": "^0.1.4",
     "react-burger-menu": "^3.0.9",
     "react-dom": "18.2.0",
+    "react-markdown": "^9.0.1",
     "react-rainbow-text": "^1.0.3",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "remark-gfm": "^4.0.0"
   },
   "scripts": {
     "start": "REACT_APP_UNIVERSAL_GA_ACCOUNT_ID=$UNIVERSAL_GA_ACCOUNT_ID react-scripts start",
