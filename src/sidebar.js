@@ -24,6 +24,7 @@ export default function SideBar({ ...props }) {
             <Link to="/venue" className="menu-item" onClick={() => handleCloseMenu()}>VENUE</Link>
             <Link to="/faq" className="menu-item" onClick={() => handleCloseMenu()}>FAQ {props.rave ? ' WTF' : ''}</Link>
             <Link to="/lineup" className="menu-item" onClick={() => handleCloseMenu()}>LINEUP</Link>
+            <Link to="/rsvp" className="menu-item" onClick={() => handleCloseMenu()}>RSVP!</Link>
 
             {/* <a className="menu-item" href="" onClick={() => setRaved(raved => !raved)}>
                 <>{'RAVE MODE'} {props.rave ? ' ✔' : ''}</>
