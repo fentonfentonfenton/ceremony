@@ -5,10 +5,7 @@ import ProTip from './ProTip';
 import { useEffect, useState } from 'react';
 
 
-export default function Home() {
-
-    const [rave, setRave] = useState(false);
-
+export default function Home({ rave }) {
 
     function RaveMode(rave) {
         return (
@@ -22,8 +19,9 @@ export default function Home() {
             <Typography variant="h5" sx={{ my: 2, mb: "10%" }}>
                 This is the one thing we didn't want to happen
             </Typography>
-            <Box sx={{ mb: "70%" }}>
+            <Box>
                 <ProTip rave={rave} />
+
                 {RaveMode(rave)}
             </Box>
         </>
