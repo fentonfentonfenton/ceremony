@@ -21,7 +21,7 @@
     "remark-gfm": "^4.0.0"
   },
   "scripts": {
-    "start": "GTM_ID=$GTM_IDreact-scripts start",
+    "start": "GTM_ID=$GTM_ID react-scripts start",
     "build": "GTM_ID=$GTM_ID react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
