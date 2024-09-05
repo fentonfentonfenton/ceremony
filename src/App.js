@@ -23,12 +23,6 @@ function Copyright() {
   );
 }
 
-function RaveMode(rave) {
-  return (
-    <>{rave ? "RAVER!" + ' ✔' : ''}</>
-  )
-
-}
 
 export default function App() {
 
@@ -47,7 +41,7 @@ export default function App() {
         <SideBar width={'200px'} pageWrapId={"App"} outerContainerId={"Outside"} rave={rave} />
         < CssBaseline />
 
-        <Container maxWidth="sm" id="App">
+        <Container maxWidth="sm" id="App" sx={{ height: "100vh", paddingBottom: "50px" }}>
           <Box sx={{ my: 0 }}>
             <Typography variant="h3" sx={{ mt: 10 }}>
               NOVEMBER 11TH {new Date().getFullYear()}
@@ -58,10 +52,10 @@ export default function App() {
             <Typography variant="h3" sx={{ my: 3 }}>
               ©EREMONY {rave ? '9/11' : ''} <br />{'... '}
             </Typography>
-            <Main />
+            <Main rave={rave} />
 
           </Box>
-          <Box id="footer" sx={{ position: "relative", bottom: "0" }}>
+          <Box id="footer" sx={{ position: "relative", bottom: "0", paddingTop: '100px' }}>
             <Copyright />
           </Box>
 
