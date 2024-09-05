@@ -16,10 +16,11 @@ const rootElement = document.getElementById('root');
 const root = ReactDOM.createRoot(rootElement);
 
 
-const GTM_ID = process.env.GTM_ID;
+const GTM_ID = process.env.REACT_APP_GTM_ID;
+
 
 const tagManagerArgs = {
-    gtmId: { GTM_ID }
+    gtmId: GTM_ID
 }
 
 TagManager.initialize(tagManagerArgs)
