@@ -7,13 +7,13 @@
     "@emotion/styled": "11.11.5",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "5.15.15",
-    "@shopify/react-google-analytics": "^5.0.15",
     "ajv": "^8.17.1",
     "react": "18.2.0",
     "react-animated-css": "^1.2.1",
     "react-animated-text": "^0.1.4",
     "react-burger-menu": "^3.0.9",
     "react-dom": "18.2.0",
+    "react-gtm-module": "^2.0.11",
     "react-markdown": "^9.0.1",
     "react-rainbow-text": "^1.0.3",
     "react-router-dom": "^6.26.1",
@@ -21,8 +21,8 @@
     "remark-gfm": "^4.0.0"
   },
   "scripts": {
-    "start": "REACT_APP_UNIVERSAL_GA_ACCOUNT_ID=$UNIVERSAL_GA_ACCOUNT_ID react-scripts start",
-    "build": "REACT_APP_UNIVERSAL_GA_ACCOUNT_ID=$UNIVERSAL_GA_ACCOUNT_ID react-scripts build",
+    "start": "GTM_ID=$GTM_IDreact-scripts start",
+    "build": "GTM_ID=$GTM_ID react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
