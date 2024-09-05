@@ -16,7 +16,7 @@ jobs:
           node-version-file: .nvmrc
       - run: |
           npm install --legacy-peer-deps
-          UNIVERSAL_GA_ACCOUNT_ID=${{ secrets.UNIVERSAL_GA_ACCOUNT_ID }} npm run build
+          REACT_APP_GTM_ID=${{ secrets.REACT_APP_GTM_ID }} npm run build
           zip -r build.zip build
 
       - name: Get branch name
