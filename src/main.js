@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import Home from './Home';
 import Page from './Page';
+import Rsvp from './Rsvp';
 
 const Main = ({ rave }) => {
 
@@ -13,7 +14,7 @@ const Main = ({ rave }) => {
             <Route exact path='/venue' element={<Page page='venue' />}></Route>
             <Route exact path='/faq' element={<Page page='faq' />}></Route>
             <Route exact path='/lineup' element={<Page page='lineup' />}></Route>
-            {/* <Route exact path='/rsvp' component={Rsvp}></Route> */}
+            <Route exact path='/rsvp' element={<Rsvp />}></Route>
         </Routes>
     );
 }
