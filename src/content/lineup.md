@@ -16,10 +16,10 @@
 
 ---
 
-### Will there be a big meal or fat rave that I can't miss
+### Will there be a big meal or special DJ set that I can't miss
 
 * RSVP, when we know more about who's coming we will reveal plans.
-* You can also eat the fat rave if you get hungry
+* You can also eat the special DJ if you get hungry
 * We encourage guests to use the local facilities (Tesco, Deliveroo)
 
 ---
