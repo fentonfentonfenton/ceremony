@@ -30,6 +30,11 @@
 
 ---
 
+### I don't want to miss the drum circle or the acoustic rave
+
+* Nor do we!
+---
+
 ### When will you tell us what time things are?
 
 * As soon as a few people RSVP!
