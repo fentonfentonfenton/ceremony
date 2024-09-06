@@ -41,6 +41,12 @@ Properly policed...
 
 ---
 
+#### Can I make/bring a cake/drink/dish?
+
+> We strongly encourage this behaviour, but we don't want ot make a mess, so portable/handhold foods would be best.
+
+---
+
 #### Do I come early or late?
 
 > Do both!
