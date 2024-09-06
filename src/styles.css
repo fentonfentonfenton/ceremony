@@ -145,9 +145,14 @@ img[alt="St Ethelburga's Centre for Reconciliation and Peace"] {
     margin-bottom: 0%
 }
 
-.body {
-    height: 100vh;
+:root {
+    --bodyColor: #fff;
+}
 
+
+body {
+    height: 100vh;
+    background-image: var(--bodyColor) !important;
 }
 
 .html {

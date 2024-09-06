@@ -1,7 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 
-
 import { ThemeProvider } from '@mui/material/styles';
 import App from './App';
 import theme from './theme';
@@ -24,7 +23,6 @@ const tagManagerArgs = {
 }
 
 TagManager.initialize(tagManagerArgs)
-
 
 root.render(
     <ThemeProvider theme={theme}>

@@ -33,8 +33,10 @@ export default function App() {
 
   const [rave, setRave] = useState(false);
 
+
   return (
     <>
+
       <Box id="switch" sx={{ position: "absolute", right: "0", top: 10 }}>
         <Switch setRave={setRave} />
       </Box>
@@ -52,7 +54,7 @@ export default function App() {
               NOVEMBER 11TH {new Date().getFullYear()}
             </Typography>
             <Typography variant="h4" sx={{ my: 2 }}>
-              <Names />
+              <Names rave={rave} />
             </Typography>
             <Typography variant="h3" sx={{ my: 3 }}>
               ©EREMONY {rave ? '9/11' : ''} <br />{'... '}
