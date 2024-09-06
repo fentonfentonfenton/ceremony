@@ -121,6 +121,25 @@ img[alt="St Ethelburga's Centre for Reconciliation and Peace"] {
     }
 }
 
+.gForm {
+    position: relative;
+    padding-bottom: 300%;
+    /* Adjust based on your form's height */
+    height: 0;
+}
+
+.gForm iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 300%;
+
+    overflow-x: hidden;
+    overflow-Y: hidden;
+}
+
 .App {
     height: 100vh;
     margin-bottom: 0%
