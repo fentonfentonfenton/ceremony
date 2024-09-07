@@ -17,14 +17,14 @@ Times to be confirmed and changed.
 | --- | --- | --- |
 |  | WARM-UP (*crew-only*) | ✅ |
 | 1PM - 2PM | If you want to help, are really bored or have a crazed toddler, come early. You may be asked to help move something. | ✅ |
-| 2PM - 3 PM | Welcome tea. (More TBA) | ✅ |
+| 2PM - 3 PM | Welcome tea. Opening ©eremony. | ✅ |
 | 3PM - 4PM | Mingling. Acoustic music. Grazing. | ✅ |
 | 4PM - 6PM | Performances. Kids disco (TBC). Grazing. | ✅ |
 | 6PM - 8PM | Speeches. Dinner time. Performances.| ✅  / ✖  |
 | --- | --- | --- |
-| 8PM-10PM | Performances. |  ✖  |
-| 10PM-0AM | Houseparty. |  ✖  |
-| 0AM-1AM | Tidying party, closing ceremony. |  ✖  |
+| 8PM - 10PM | Performances. |  ✖  |
+| 10PM - 0AM | Houseparty. |  ✖  |
+| 0AM - 1AM | Tidying party. Closing ©eremony. |  ✖  |
 
 ---
 
