@@ -31,7 +31,7 @@ Times to be confirmed and changed.
 ### I have kids and a dog, I need times
 
 * Dogs can't come, sorry!
-* RSVP, when we know how many kids etc are coming we can plan more - we want to make this great for anyone - if we have enough interest to provide softplay stuff / a clown, then maybe we will!
+* RSVP, when we know how many kids etc are coming we can plan more - we want to make this great for anyone - if we have enough interest to provide softplay stuff / dress Moogz as clown, then maybe we will!
 
 ---
 
@@ -51,7 +51,7 @@ Times to be confirmed and changed.
 
 ### I don't want to miss the drum circle or the acoustic rave
 
-* Nor do we!
+* Nor do we! We'll let you know closer to the date.
 ---
 
 ### When will you tell us what time things are?
