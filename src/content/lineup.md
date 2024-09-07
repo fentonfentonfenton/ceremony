@@ -6,13 +6,32 @@
 * Curfew is at 1AM
 * Activities and enterainment will happen throughout
 * RSVP, it's going to be important to us to know what kind of things you would like
+* Timings will get more detailed as the event nears
 
 ---
 
-### I have kids and a dog
+### An example of what you can expect
+
+Times to be confirmed and changed.
+| Time     |   | Kids |
+| --- | --- | --- |
+|  | WARM-UP (*crew-only*) | ✅ |
+| 1PM - 2PM | If you want to help, are really bored or have a crazed toddler, come early. You may be asked to help move something. | ✅ |
+| 2PM - 3 PM | Welcome tea. (More TBA) | ✅ |
+| 3PM - 4PM | Mingling. Acoustic music. Grazing. | ✅ |
+| 4PM - 6PM | Performances. Kids disco (TBC). Grazing. | ✅ |
+| 6PM - 8PM | Speeches. Dinner time. Performances.| ✅  / ✖  |
+| --- | --- | --- |
+| 8PM-10PM | Performances. |  ✖  |
+| 10PM-0AM | Houseparty. |  ✖  |
+| 00:00-1AM | Tidying party, closing ceremony. |  ✖  |
+
+---
+
+### I have kids and a dog, I need times
 
 * Dogs can't come, sorry!
-* RSVP, when we know how many kids etc are coming we can plan more - we want to make this great for anyone.
+* RSVP, when we know how many kids etc are coming we can plan more - we want to make this great for anyone - if we have enough interest to provide softplay stuff / a clown, then maybe we will!
 
 ---
 

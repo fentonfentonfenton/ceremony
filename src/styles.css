@@ -164,3 +164,21 @@ body {
     height: 100vh;
     margin-bottom: 0%
 }
+
+table,
+th,
+td {
+    text-align: left;
+}
+
+table {
+    table-layout: fixed;
+}
+
+th+th {
+    width: 60%;
+}
+
+th+th+th {
+    width: 15%;
+}
