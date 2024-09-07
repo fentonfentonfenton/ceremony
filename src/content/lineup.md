@@ -24,7 +24,7 @@ Times to be confirmed and changed.
 | --- | --- | --- |
 | 8PM-10PM | Performances. |  ✖  |
 | 10PM-0AM | Houseparty. |  ✖  |
-| 00:00-1AM | Tidying party, closing ceremony. |  ✖  |
+| 0AM-1AM | Tidying party, closing ceremony. |  ✖  |
 
 ---
 
