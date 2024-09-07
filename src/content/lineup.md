@@ -20,9 +20,9 @@ Times to be confirmed and changed.
 | 2PM - 3 PM | Welcome tea. Opening ©eremony. | ✅ |
 | 3PM - 4PM | Mingling. Acoustic music. Grazing. | ✅ |
 | 4PM - 6PM | Performances. Kids disco (TBC). Grazing. | ✅ |
-| 6PM - 8PM | Speeches. Dinner time. Performances.| ✅  / ✖  |
+| 6PM - 8PM | ©eremony. Speeches. Dinner time. Performances.| ✅  / ✖  |
 | --- | --- | --- |
-| 8PM - 10PM | Performances. |  ✖  |
+| 8PM - 10PM | Performances. Night ©eremony. |  ✖  |
 | 10PM - 0AM | Houseparty. |  ✖  |
 | 0AM - 1AM | Tidying party. Closing ©eremony. |  ✖  |
 
