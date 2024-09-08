@@ -18,7 +18,7 @@ function Copyright() {
 
       {" St Ethelburga's - Centre for Reconciliation and Peace"}
       <br />
-      <Event fontSize="small" sx={{ verticalAlign: "middle" }} />{" November 11th "}{new Date().getFullYear()}{' '}
+      <Event fontSize="small" sx={{ verticalAlign: "middle" }} />{" November 9th "}{new Date().getFullYear()}{' '}
     </Typography>
   );
 }
@@ -32,7 +32,6 @@ export default function App() {
   });
 
   const [rave, setRave] = useState(false);
-
 
   return (
     <>
@@ -51,7 +50,7 @@ export default function App() {
         <Container maxWidth="sm" id="App" sx={{ height: "100vh", paddingBottom: "50px" }}>
           <Box sx={{ my: 0 }}>
             <Typography variant="h3" sx={{ mt: 10 }}>
-              NOVEMBER 11TH {new Date().getFullYear()}
+              NOVEMBER 9th {new Date().getFullYear()}
             </Typography>
             <Typography variant="h4" sx={{ my: 2 }}>
               <Names rave={rave} />
