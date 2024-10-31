@@ -13,18 +13,34 @@
 ### An example of what you can expect
 
 Times to be confirmed and changed.
+#### In the Main arena
 | Time     |   | Kids |
 | --- | --- | --- |
 |  | WARM-UP (*crew-only*) | ✅ |
 | 1PM - 2PM | If you want to help, are really bored or have a crazed toddler, come early. You may be asked to help move something. | ✅ |
-| 2PM - 3 PM | Welcome tea. Opening ©eremony. | ✅ |
-| 3PM - 4PM | Mingling. Acoustic music. Grazing. | ✅ |
+| 2PM - 3PM | Official opening | ✅ |
+| 2PM - 4PM | Opening ©eremony. Tea n Cake. | ✅ |
 | 4PM - 6PM | Performances. Kids disco (TBC). Grazing. | ✅ |
-| 6PM - 8PM | ©eremony. Speeches. Dinner time. Performances.| ✅  / ✖  |
+| 7PM - 9PM | ©eremony. Speeches. Pizza. Performances.| ✅  / ✖  |
 | --- | --- | --- |
-| 8PM - 10PM | Performances. Night ©eremony. |  ✖  |
+| 9PM - 10PM | Performances. Night ©eremony. |  ✖  |
 | 10PM - 0AM | Houseparty. |  ✖  |
-| 0AM - 1AM | Tidying party. Closing ©eremony. |  ✖  |
+| 0AM - 0:30AM | Jack & Moogz B2B |  ✖  |
+| 0:30AM - 01AM | Tidying party |  ✖  |
+| 1AM | Closing ©eremony. |  ✖  |
+
+#### In the Yurt
+| --- | --- | --- |
+|  | WARM-UP (*crew-only*) | ✅ |
+| 1PM - 2PM | Softplay setup | ✅ |
+| 2PM - 4PM | Softplay | ✅ |
+| 4:30PM - 5PM | Kids disco. | ✅ |
+| 5PM - 6PM | Softplay warmdown. | ✅ |
+| 6PM - 7PM | Kids afterparty.| ✅  |
+| --- | --- | --- |
+| 8PM - 0AM | Peace and reconcilliation |  ✖  |
+| 0AM - 1:30AM | Chillout zone til close |  ✖  |
+
 
 ---
 

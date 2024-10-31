@@ -24,11 +24,23 @@ export default function SideBar({ ...props }) {
             <Link to="/venue" className="menu-item" onClick={() => handleCloseMenu()}>VENUE</Link>
             <Link to="/faq" className="menu-item" onClick={() => handleCloseMenu()}>FAQ {props.rave ? ' WTF' : ''}</Link>
             <Link to="/lineup" className="menu-item" onClick={() => handleCloseMenu()}>LINEUP</Link>
-            <Link to="/rsvp" className="menu-item" onClick={() => handleCloseMenu()}>RSVP!</Link>
 
             {/* <a className="menu-item" href="" onClick={() => setRaved(raved => !raved)}>
                 <>{'RAVE MODE'} {props.rave ? ' ✔' : ''}</>
             </a> */}
+
+            <Link to="/rsvp" className="menu-item" onClick={() => handleCloseMenu()}>RSVP!</Link>
+            <br />
+            <br />
+            <br />
+            <div style={{ flex: 1, height: '1px', backgroundColor: 'white' }} />
+
+            <Link to="/rules" className="menu-item" onClick={() => handleCloseMenu()}>RULES</Link>
+            <Link to="/kids" className="menu-item" onClick={() => handleCloseMenu()}>KIDS</Link>
+            <Link to="/food" className="menu-item" onClick={() => handleCloseMenu()}>FOOD / DRINK</Link>
+            <Link to="/volunteer" className="menu-item" onClick={() => handleCloseMenu()}>VOLUNTEER</Link>
+            <Link to="/perform" className="menu-item" onClick={() => handleCloseMenu()}>PERFORMERS</Link>
+
         </Menu>
     );
 };
