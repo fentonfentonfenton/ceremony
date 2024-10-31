@@ -1,11 +1,15 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import ProTip from './ProTip';
 import { useEffect, useState } from 'react';
 import venue from './content/venue.md';
 import faq from './content/faq.md';
 import lineup from './content/lineup.md';
+import food from './content/food.md';
+import volunteer from './content/volunteer.md';
+import rules from './content/rules.md'
+import kids from './content/kids.md'
+import perform from './content/perform.md'
 
 
 import ReactMarkdown from 'react-markdown'
@@ -14,6 +18,11 @@ import remarkGfm from 'remark-gfm'
 const fileMap = {
     'venue': venue,
     'faq': faq,
+    'food': food,
+    'kids': kids,
+    'volunteer': volunteer,
+    'rules': rules,
+    'perform': perform,
     'lineup': lineup
 };
 
