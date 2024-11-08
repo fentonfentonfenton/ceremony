@@ -5,7 +5,6 @@
 * We're starting on Saturday lunchtime
 * Curfew is at 1AM
 * Activities and enterainment will happen throughout
-* RSVP, it's going to be important to us to know what kind of things you would like, or what you can bring/perform
 * Timings will get more detailed as the event nears
 
 ---
