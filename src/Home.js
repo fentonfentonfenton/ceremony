@@ -23,11 +23,9 @@ export default function Home({ rave }) {
             <Typography variant="h5" sx={{ my: 2, mb: "10%" }}>
                 This is the one thing we didn't want to happen
             </Typography>
-            <Link to="/rsvp">
-                <Button variant="outlined">
-                    RSVP!
-                </Button>
-            </Link>
+            <Typography variant="h5" sx={{ my: 2, mb: "10%" }}>
+                GET YOURSELF TO LIVERPOOL STREET
+            </Typography>
 
             <Box>
                 <ProTip rave={rave} />
