@@ -20,16 +20,18 @@ Times to be confirmed and changed.
 | 1PM - 2PM | If you want to help, are really bored or have a crazed toddler, come early. You may be asked to help move something. | ✅ |
 | 2PM - 3PM | Official opening | ✅ |
 | 2PM - 4PM | Opening ©eremony. Tea n Cake. | ✅ |
-| 4PM - 6PM | Performances. Kids disco (TBC). Grazing. | ✅ |
+| 4PM - 6PM | Performances. Grazing. | ✅ |
 | 7PM - 9PM | ©eremony. Speeches. Pizza. Performances.| ✅  / ✖  |
 | --- | --- | --- |
 | 9PM - 10PM | Performances. Night ©eremony. |  ✖  |
-| 10PM - 0AM | Houseparty. |  ✖  |
+| 10PM - 11PM | Lele |  ✖  |
+| 11PM - 0AM | G.M.T. (Tribe of Munt) |
 | 0AM - 0:30AM | Jack & Moogz B2B |  ✖  |
 | 0:30AM - 01AM | Tidying party |  ✖  |
 | 1AM | Closing ©eremony. |  ✖  |
-
+---
 #### In the Yurt
+| Time     |   | Kids |
 | --- | --- | --- |
 |  | WARM-UP (*crew-only*) | ✅ |
 | 1PM - 2PM | Softplay setup | ✅ |
