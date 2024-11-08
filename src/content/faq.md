@@ -33,11 +33,6 @@ Properly policed...
 
 > It must not, I repeat not, turn into an all-night rave.
 
----
-
-#### I'll be hungry. And thirsty
-
-> Please RSVP and more will be revealed. Tesco is next door. Deliveroo!
 
 ---
 
