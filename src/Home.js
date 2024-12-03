@@ -24,9 +24,8 @@ export default function Home({ rave }) {
                 This is the one thing we didn't want to happen
             </Typography>
             <Typography variant="h5" sx={{ my: 2, mb: "10%" }}>
-                GET YOURSELF TO LIVERPOOL STREET
+                THANK YOU!!!
             </Typography>
-
             <Box>
                 <ProTip rave={rave} />
 
