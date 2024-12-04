@@ -39,7 +39,7 @@ export default function SideBar({ ...props }) {
             <Link to="/kids" className="menu-item" onClick={() => handleCloseMenu()}>KIDS</Link>
             <Link to="/food" className="menu-item" onClick={() => handleCloseMenu()}>FOOD / DRINK</Link>
             <Link to="/volunteer" className="menu-item" onClick={() => handleCloseMenu()}>VOLUNTEER</Link>
-            <Link to="/perform" className="menu-item" onClick={() => handleCloseMenu()}>PERFORMERS</Link> */} */}
+            <Link to="/perform" className="menu-item" onClick={() => handleCloseMenu()}>PERFORMERS</Link> */}
 
         </Menu>
     );
